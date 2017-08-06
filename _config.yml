@@ -1,5 +1,5 @@
-title: Slate theme
-description: Slate is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+# title: Slate theme
+# description: Slate is a theme for GitHub Pages.
+# show_downloads: false
+google_analytics: True
 theme: jekyll-theme-slate
