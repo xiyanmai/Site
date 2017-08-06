@@ -1,12 +1,6 @@
----
-layout: default
----
-
 # Daisuke Sato's Cardiology Lab 
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](another-page).
+[UC Davis link](http://www.ucdmc.ucdavis.edu/publish/providerbio/search/21774).
 
 * * *
 
