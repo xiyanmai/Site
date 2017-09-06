@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+
+<style type="text/css">
+<!--
+
+.hexagon {
+  position: relative;
+  width: 150px; 
+  height: 86.60px;
+  margin: 43.30px 0;
+  background-size: auto 173.2051px;
+  background-position: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 106.07px;
+  height: 106.07px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 21.97px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 150.0000px;
+  height: 86.60254037844388px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-43.3013px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -53.0330px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -53.0330px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 150.0000px;
+  height: 86.6025px;
+  z-index: 2;
+  background: inherit;
+}
+
+.hexagon:hover {
+      box-shadow: 0 0 20px rgba(255,255,0,0.6);
+    }
+.hexagon:hover > .hexTop {
+      box-shadow: 0 0 20px rgba(255,255,0,0.6);
+    }
+.hexagon:hover > .hexBottom {
+      box-shadow: 0 0 20px rgba(255,255,0,0.6);
+    }
+
+
+
+
+
+.hexagon .box {
+	position:absolute;
+	width: 300px; 
+	height: 60px; 
+	top: -76px; 
+	left: 0;
+	border-radius: 20px 20px 20px 20px;
+	background-color: #FFCD00;
+	display: none;
+}
+.hexagon .box:after { 
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	top: 60px;
+	left: 32px;
+	border: 16px solid transparent;
+	border-top: 16px solid #FFCD00;
+}
+.hexagon .text {
+	font-size: 16px;
+	position: absolute;
+	top: -8px;
+	left: 8px;
+	color: #000;
+}
+.hexagon:hover .box {
+	z-index: 2;
+	display: inline-block;
+}
+
+
+
+//-->
+</style>
+<script type="text/javascript">
+window.onload = function () {
+  var elm = window.parent.document.getElementById("mainframe");
+  elm.style.height = document.body.scrollHeight + 100+ "px";
+};
+
+</script>
+
+</head>
+<body>
+<h1 align="center">Sato Lab Members</h1>
+
+<div style= "width:300px;height:330px;margin: 0 auto;text-align: center;">
+	<img src="img/Sato.jpg" width="160px">
+	<p>Daisuke Sato, Ph.D. (PI)</p>
+</div>
+
+
+<div style= "width:450px;height:150px;margin: 0 auto;">
+    <div class="hexagon" style="float:left; background-image: url(img/Rosaline.JPG);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+        <div class="box">
+    		<p class="text">Rosaline Habashy<br>Chemical Engineering<br></p>
+    	</div>
+    </div>
+
+    <div class="hexagon" style="float:left; background-image: url(img/Ali.JPG);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+        <div class="box">
+    		<p class="text">Ali Heydari<br>Applied Mathematics<br></p>
+    	</div>
+    </div>
+
+    <div class="hexagon" style="float:left; background-image: url(img/Priscilla.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+        <div class="box">
+    		<p class="text">Priscilla Chan<br>Biomedical Engineering<br></p>
+    	</div>
+    </div>
+</div>
+
+
+<div style="width:450px;height:150px;margin: 0 auto; auto;clear: both;position: relative; top: -35px; left: 75px;">
+    <div class="hexagon" style="float:left; background-image: url(img/Kim.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+            <div class="box">
+        		<p class="text">Seunghyun Kim (UCLA)<br>Mathematical and Scientific Computation<br></p>
+        	</div>
+    </div>
+
+    <div class="hexagon" style="float:left; background-image: url(img/Eleanor.jpg);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+            <div class="box">
+        		<p class="text">Zixuan (Eleanor) Zhang<br>Genetics & Genomics<br></p>
+        	</div>
+    </div>
+
+    <div class="hexagon" style="float:left; background-image: url(img/Tam.JPG);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+            <div class="box">
+        		<p class="text">Tam Nguyen<br>Biochemistry<br></p>
+        	</div>
+    </div>
+</div>
+
+
+
+<div style="width:450px;height:150px;margin: 0 auto; auto;clear: both;position: relative; top: -70px; left: 150px;">
+    <div class="hexagon" style="float:left; background-image: url(img/Nina.png);">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
+        <div class="box">
+    		<p class="text">Navneet Shahi<br>Biochemical Engineering<br></p>
+    	</div>
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
