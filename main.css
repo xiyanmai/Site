@@ -130,6 +130,7 @@ h5{
     background-image : url(logo.jpg);
     background-position: center left;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
