@@ -88,6 +88,7 @@ h5{
     padding-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 90px;
 }
 
 #body-wrapper{
@@ -126,11 +127,12 @@ h5{
     padding-left: 0;
     text-indent: -9999px;
     overflow: hidden;
-    height: 44px;
+    height: 136px;
+    width: 840px;
     background-image : url(logo.jpg);
-    background-size: contain;
     background-position: center left;
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
