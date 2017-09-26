@@ -128,9 +128,10 @@ h5{
     overflow: hidden;
     height: 44px;
     background-image : url(logo.jpg);
+    background-size: contain;
     background-position: center left;
     background-repeat: no-repeat;
-    background-size: contain;
+    
 }
 
 
