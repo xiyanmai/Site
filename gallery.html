@@ -51,6 +51,46 @@
     animation-delay: 5s;
 }
 
+
+
+
+
+#slideshow{
+	position: relative;
+	width: 576px;
+	height: 432px;
+	overflow:hidden;
+	padding:0!important;
+}
+
+.slideshowimg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding:0!important;
+}
+
+
+#slideshowimg1{
+	animation: fadeinout 12s ease 0s infinite;
+	opacity:0;
+}
+
+#slideshowimg2{
+	animation: fadeinout 12s ease 6s infinite;
+	opacity:0;
+}
+@keyframes fadeinout {
+	0% {opacity:0;left: 30%;}
+	5% {opacity:1;left: 0%;}
+	45% {opacity:1;left: 0%;}
+	50% {opacity:0;left: 30%;}
+}
+
+
+
 //-->
 </style>
 <script type="text/javascript">
@@ -65,7 +105,6 @@ window.onload = function () {
 <body>
 <h1 align="center">Digital Fireflies</h1>
 <h2 align="center">(Undergraduate Project)</h2>
-
 <p> We made "Digital Fireflies" using Raspberry PIs, LEDs, and photosensors. The period of flashing is governed by nonlinear oscillators (here we used the FitzHugh–Nagumo model and Hodgkin–Huxley model). The code is written in Python.</p>
 
 
@@ -74,10 +113,7 @@ window.onload = function () {
 Your browser does not support the video tag.
 </video>
 
-<h1 align="center">Weekly Lab Meeting</h1>
-
-
-
+<h1 align="center" style="margin-top: 30px;">Weekly Lab Meeting</h1>
 <div align="center">
     <img src="img/labmeeting1.jpg" width="100%" >
 </div>
@@ -85,15 +121,28 @@ Your browser does not support the video tag.
 
 
 
-<h1 align="center">High Performance Computing Cluster</h1>
+<h1 align="center" style="margin-top: 30px;">Lab Trip to the A.I. conference in San Francisco</h1>
+<div id="slideshow">
+	<div id="slideshowimg1" class="slideshowimg"><img src="img/aitrip2.jpg" width=576></div>
+	<div id="slideshowimg2" class="slideshowimg"><img src="img/aitrip1.jpg" width=576></div>
+</div>
 
+
+
+
+<h1 align="center" style="margin-top: 30px;">High Performance Computing Cluster</h1>
 <p> Our HPC cluster has 1 head node + 24 compute nodes.</p>
-
-
 <div align="left" class="photo-show">
     <img src="img/facility1.jpg" width=300 >
     <img src="img/facility2.jpg" width=300>
 </div>
+
+
+
+
+
+
+
 
 
 </body>
