@@ -6,7 +6,9 @@
 
 <style type="text/css">
 <!--
-
+p {
+  line-height:1.5
+}
 
 
 //-->
@@ -36,15 +38,7 @@ window.onload = function () {
 <p>Early afterdepolarizations (EADs) and delayed afterdepolarizations (DADs) as premature ventricular contractions (PVCs) to trigger arrhythmias have been well established.  We have shown how EADs due to reactivation of the L-type Ca current can result in large gradients of refractoriness in tissue, creating a substrate for reentry. EADs are also initiated by spontaneous Ca releases. DADs are normally initiated by spontaneous Ca releases. To understand how EADs and DADs are caused at the ryanodine receptor level and induce triggered activities at the tissue level, we use computer simulation and mathematical analysis of physiologically detailed models of the Ca cycling and the action potential.  At the tissue level, Ca waves in a few cells of tissue will not cause PVCs since cells are coupled by gap junctions and surrounding cells keep the membrane potential too negative for Na channel activation.  This is called “source-sink mismatch”.  In order to overcome the source-sink mismatch and initiate PVCs, DADs or EADs must occur in synchrony in multiple cells.  We have studied how many EAD- or DAD-primed cells are required to overcome source-sink mismatch.         We also investigated how isoproterenol (ISO) application induces transient EADs. The same total amount of ISO was added in two different ways; 1) a high dose applied at once. 2) the same amount applied gradually. When a moderate dose of ISO was applied to the myocyte acutely, no EADs occur in either steady state (i.e., before and after the ISO application). However, during the transient, EADs can occur due to the differential activation rates of ICaL vs. IKs upon ISO application.  On the other hand, if ISO is applied gradually, its effect on ICaL is small and always compensated by the IKs. Therefore, EADs are less likely to occur. Intense β-adrenergic stress is known to cause triggered arrhythmias. We demonstrated that moderate β-adrenergic stress, which cannot generate EADs in a long term, can induce EADs during the transition phase due to its differential time course effects on different targets. </p>
 
 
-<h2>Subcelluar Calcium Dynamics</h2>
-<p>We have been developing a physiologically detailed models of a cardiac myocyte with the detailed subcellular Ca cycling. Using these computational models, we have investigated several topics. We investigated when Ca leak from the SR becomes a Ca spark or non-spark Ca leak. The RyR channel opens stochastically and once it opens, the single RyR opening recruits more RyR openings via Ca-induced Ca release and generates a Ca spark. Our question is why Ca sparks occur only above a threshold SR Ca concentration ([Ca]SR). We found that the single stochastic RyR opening fails to initiate a Ca spark as SR Ca load becomes lower due to 1), lower [Ca]SR reduces driving force and thus limits local cleft Ca concentration ([Ca]Cleft) achieved and the rate of rise during RyR opening; 2), low [Ca]SR limits RyR open time, which further reduces local [Ca]Cleft attained; 3), low open time and fast [Ca]Cleft dissipation after RyR closure shorten the opportunity for neighboring RyR activation; 4), at low [Ca]SR, the RyR exhibits reduced [Ca]Cleft sensitivity. These findings are consistent with experimental observations.  This result was naturally extended to investigate the role of the NCX on Ca spark initiation.  Depending on the membrane voltage, intracellular Ca concentration ([Ca]i), and Na concentration ([Na]), the NCX extrudes (forward mode) or brings in (reverse mode) Ca.  At the resting membrane potential, the NCX is in the forward mode. We found that if Ca released from the SR is quickly removed via forward mode NCX before Ca-induced Ca release starts, the Ca release becomes non-spark Ca leak. This is also influenced by the cleft/noncleft distribution of NCX, which is still unknown experimentally. We analyzed how NCX strength and spatial distribution alter Ca spark formation. During excitation-contraction coupling, most Ca sparks are induced by ICaL with very few due to reverse mode NCX current. At the resting membrane potential if most NCX is localized to the cleft, spontaneous Ca sparks are significantly reduced. Ca spark initiation and suppression by NCX are significantly affected by [Na].</p>
-
-
-<h2>Development of Computational Techniques</h2>
-<p>We have also developed techniques to accelerate the whole heart simulations with general-purpose computing on graphics processing units (GPGPU).  Nowadays, this technique is widely used to simulate not only the whole heart but also the subcellular calcium (Ca) cycling and signaling pathways. Improvement of simulation speed and efficiency will make it possible for us not only to use modeling and simulation approaches for understanding the mechanisms of arrhythmias but also to develop patient-specific computer aided therapy, treatment, and surgery.</p>
-
-<h2>Device Development</h2>
-<h3>(Coming soon!!)</h3>
+<div style="float:left;"><a href="research_p2.html" target="mainframe"><span class="elem">Next</span></a></div>
 
 
 </body>

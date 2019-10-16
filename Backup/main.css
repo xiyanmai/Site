@@ -109,7 +109,6 @@ h5{
     height: 24px;
     overflow: hidden;
     font-size: 16px;
-    font-family: Trebuchet MS;
 }
 
 #body-headerLogo{
@@ -138,6 +137,7 @@ h5{
     
     
 }
+
 
 
 
@@ -296,7 +296,6 @@ a:active{
     width: 840px;
     height: 31px;
     overflow: hidden;
-    font-family: Trebuchet MS;
 }
 #body-nav ul{
     list-style-type: none;
@@ -331,7 +330,7 @@ a:active{
 #body-nav li a{
     display: block;
     text-align: center;
-    background-color : #002855;
+    background-image : url(nav.png);
     background-repeat: no-repeat;
     background-position: center top;
 }
@@ -354,14 +353,13 @@ a:active{
     text-decoration: none;
 }
 #body-nav a:hover{
-    background-color: #B3A369;
+    text-decoration: none;
+    background-image : url(nav_on.png);
 }
 #body-nav a:active{
-    background-color: #B3A369;
-
+    text-decoration: none;
+    background-image : url(nav_on.png);
 }
-
-
 
 
 #body-title{
